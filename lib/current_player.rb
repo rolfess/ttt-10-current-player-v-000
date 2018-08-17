@@ -9,8 +9,7 @@ def turn_count (board)
 end
 
 def current_player (board)
- whoturn = turn % 2
- if whoturn.even?
+ if (turn % 2).even?
    return "X"
  else
    return "O"
