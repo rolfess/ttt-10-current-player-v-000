@@ -15,6 +15,6 @@ def current_player (board)
   else
     player = "O"
   end
-  puts "#{player}""
+  puts "#{player}"
   return player
 end
