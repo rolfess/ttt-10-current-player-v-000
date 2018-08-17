@@ -9,11 +9,11 @@ def turn_count (board)
 end
 
 def current_player (board)
-  who_turn = turn_count(turn)
+  who_turn = turn_count
   if who_turn % 2 == 0
-    player = "X"
-  else
     player = "O"
+  else
+    player = "X"
   end
   return player
 end
