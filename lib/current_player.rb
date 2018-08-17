@@ -8,13 +8,12 @@ def turn_count (board)
   return turn
 end
 
-def current_player (board)
+def current_player (turn)
   who_turn = turn_count
   if who_turn % 2 == 0
     player = "X"
   else
     player = "O"
   end
-  puts "#{player}"
   return player
 end
