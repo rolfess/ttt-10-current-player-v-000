@@ -8,8 +8,8 @@ def turn_count (board)
   return turn
 end
 
-def current_player (turn_count)
-  who_turn = turn
+def current_player (board)
+  who_turn = turn_count(turn)
   if who_turn % 2 == 0
     player = "X"
   else
