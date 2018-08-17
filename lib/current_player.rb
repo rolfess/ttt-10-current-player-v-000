@@ -8,10 +8,10 @@ def turn_count (board)
   return turn
 end
 
-def current_player (board)
-who_turn = turn_count
-if who_turn % 2 == 0
-   return "X"
- else
-   return "O"
-end
+#def current_player (board)
+#  who_turn = turn_count
+#  if who_turn % 2 == 0
+#   return "X"
+#  else
+#   return "O"
+#end
